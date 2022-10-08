@@ -40,5 +40,18 @@ const PictureOfTheDay = () => {
     )
 }
 
+const Picture = (props) => {
+    return (
+        <div className="picture-container">
+            <img src={props.url} alt={"Picture of the day"}
+                 style={{
+                     width: "100%",
+                     height: "100%",
+                     maxWidth: 800,
+                     maxHeight:600}}/>
+            <p></p>
+        </div>
+    )
+}
 
 export default PictureOfTheDay
