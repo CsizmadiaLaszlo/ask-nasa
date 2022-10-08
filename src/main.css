@@ -1,0 +1,24 @@
+/*Header*/
+.navbar {
+    padding: 30px;
+}
+
+/*Footer*/
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.footer-container {
+    padding-left: 20px;
+}
+
+/*Main*/
+.main-container {
+    margin: 30px;
+}
+
