@@ -16,5 +16,20 @@ const Layout = () => {
     )
 }
 
+const NavigationBar = () => {
+    return (
+        <header>
+            <nav className={"navbar navbar-expand-sm border-bottom mb-3"}>
+                <img src={nasaLogo} alt={"Nasa logo."} style={{width: "3%", height: "3%"}}/>
+                <div className={"navbar-collapse collapse d-sm-inline-flex justify-content-between"}>
+                    <ul className={"navbar-nav flex-grow-1"}>
+                        <Link className={"nav-link text-light"} to={'/'}>Home</Link>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    );
+}
+
 
 export default Layout;
