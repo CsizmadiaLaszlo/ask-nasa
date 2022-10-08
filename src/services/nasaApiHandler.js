@@ -1,7 +1,7 @@
-﻿const APIKEY = "REPLACE THIS TEXT WITH YOUR NASA API KEY";
+﻿import {API_KEY} from "../../config.js";
 
 export const getPictureByDate = async (date) => {
-    let url = `https://api.nasa.gov/planetary/apod?api_key=${APIKEY}&date=${date}`;
+    let url = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`;
     try {
         const response = await fetch(url);
         return response.json()
