@@ -31,5 +31,16 @@ const NavigationBar = () => {
     );
 }
 
+const Footer = () => {
+    return (
+        <footer>
+            <footer className="border-top">
+                <div className={"footer-container"}>
+                    &copy; 2022 - Ask nasa
+                </div>
+            </footer>
+        </footer>
+    )
+}
 
 export default Layout;
