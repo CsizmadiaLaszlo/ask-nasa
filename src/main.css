@@ -22,3 +22,65 @@ footer {
     margin: 30px;
 }
 
+/*DatePicker*/
+input{
+    color: white !important;
+}
+
+/*Index*/
+
+.daily-picture-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "daily-menu daily-main";
+}
+
+.daily-menu {
+    grid-area: daily-menu;
+}
+
+.daily-main {
+    grid-area: daily-main;
+}
+
+.daily-menu-text, .daily-menu-picker {
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.picture-data-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "picture-details picture";
+}
+
+.picture-details {
+    grid-area: picture-details;
+}
+
+.picture {
+    grid-area: picture;
+}
+
+.picture-data-title-container, .picture-details-container {
+    text-align: center;
+}
+
+.picture-explanation {
+    margin: 20px;
+    padding: 20px;
+}
+
+.picture-details-container, .picture-container {
+    margin-top: 40px;
+}
+
+
